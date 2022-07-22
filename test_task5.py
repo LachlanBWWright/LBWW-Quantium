@@ -36,7 +36,7 @@ def test_bsly001_main(dash_duo):
     dash_duo.wait_for_page(url=None, timeout=10)
 
     #Visualisation Present
-    dash_duo.wait_for_element('#Select-Region', timeout = 5)
+    dash_duo.wait_for_element('#Morsel-Sales', timeout = 5)
 
     #Header Present
     dash_duo.wait_for_element('#Header', timeout = 5)
